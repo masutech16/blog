@@ -1,5 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "http://localhost:1313/"
 languageCode = "ja"
 title = "ますぐれメモ"
-
 theme = "cactus"
+
+[taxonomies]
+  tag = "tags"
+

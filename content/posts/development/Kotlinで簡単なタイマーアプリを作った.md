@@ -2,6 +2,8 @@
 title: "Kotlinで簡単なタイマーアプリを作った"
 date: 2018-12-05T23:54:06+09:00
 draft: false
+slug: timerapp
+tags: [Development]
 ---
 
 # Kotlin で簡単なタイマーアプリを作った

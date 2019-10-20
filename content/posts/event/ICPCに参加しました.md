@@ -2,6 +2,8 @@
 title: "ICPCに参加しました"
 date: 2019-07-18T19:25:49+09:00
 draft: false
+slug: ICPC2019
+tags: [compro]
 ---
 
 {{< figure src="/images/ICPC2019.jpg" title="チームメンバーのフルルです" class="center" width="80" >}}

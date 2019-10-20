@@ -13,9 +13,9 @@ draft: false
 
 * ますぐれと言います
 * ゲームが好きです
-* ゲーム制作やサーバーサイド、あと数学に興味があります
+* ゲーム制作やWeb系、あと数学に興味があります
 * [Twitter](https://twitter.com/masutech16)
-* [github](https://github.com/masutech16)
+* [GitHub](https://github.com/masutech16)
 
 
 

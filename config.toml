@@ -7,4 +7,6 @@ theme = "cactus"
   tag = "tags"
 [params]
   mathjaxStyle = "mathjax-style.css"
-
+  twitterID = "@masutech16"
+  description = "個人的に気になったことや思いついたことを書き留めておくブログです"
+  images = ["twitter-card.png"]

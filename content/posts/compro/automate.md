@@ -42,7 +42,7 @@ CIの環境としてはGithub Actionsを選択しました。今まで使った�
 
 [Skip execution with clang++ if clang++ doesn't exist · Issue #173 · kmyk/online-judge-verify-helper](https://github.com/kmyk/online-judge-verify-helper/issues/173)
 
-これぼくがツイッターでつぶやいた数時間後にはissueできててめっちゃ感動しました。
+これぼくがツイッターでつぶやいた数時間後にはissueできててめっちゃ感動しました。(2020/05/03追記: 現在はツールの方にアプデが入ったので指定するやり方はdeprecatedになりました)
 
 閑話休題。ということで、手元で実行するときは`CXX=g++ oj-verify run`みたいにしてあげると良さそうです。使い勝手もよくて楽しいです。
 

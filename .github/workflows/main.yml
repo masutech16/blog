@@ -40,5 +40,5 @@ jobs:
         SRC: public/
         RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
       env:
-        DEPLOY_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         

@@ -35,7 +35,7 @@ jobs:
     - name: Rsync deployments   
       uses: masutech16/rsync-deployments@v1
       with:
-        USER_AND_HOST: user@example.com
+        USER_AND_HOST: gha@150.95.202.188
         DEST: /srv/blog/
         SRC: public/
         RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'

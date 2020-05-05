@@ -38,7 +38,7 @@ jobs:
         USER_AND_HOST: gha@150.95.202.188
         DEST: /srv/blog/
         SRC: public/
-        RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
+        RSYNC_OPTIONS: -rlOtcv --delete --exclude node_modules --exclude '.git*'
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         

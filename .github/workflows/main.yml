@@ -32,10 +32,7 @@ jobs:
     - name: Build with Hugo
       run: hugo --minify
 
-    - name: Add ssh key
-      run: echo ${{ secrets.DEPLOY_KEY }}
-
-    - name: rsync deployments   
+    - name: Rsync deployments   
       uses: masutech16/rsync-deployments@v1
       with:
         USER_AND_HOST: user@example.com

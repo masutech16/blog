@@ -29,10 +29,16 @@ jobs:
     - name: Build with Hugo
       run: hugo --minify
 
+    - name: Add ssh key
+      run: echo ${{ secrets.DEPLOY_KEY }}
 
-    # TODO: Set domain
-    - name: rsync deployments
-      uses: contention/rsync-deployments@v1.0.0
-       secrets = ["DEPLOY_KEY"]
-       args = ["-avzr --delete",  "gha@150.95.202.188:/srv/blog/"]
+    - name: rsync deployments   
+      uses: masutech16/rsync-deployments   
+      with:
+        USER_AND_HOST: user@example.com
+        DEST: /srv/blog/
+        SRC: public/
+        RSYNC_OPTIONS: -avzr --delete --exclude node_modules --exclude '.git*'
+      env:
+        DEPLOY_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         

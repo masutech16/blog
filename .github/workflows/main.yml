@@ -19,26 +19,26 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-      with: 
+      with:
         submodules: true
         fetch-depth: 0
 
-    # Build 
+    # Build
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.68.3'  
+        hugo-version: '0.68.3'
 
     - name: Build with Hugo
       run: hugo --minify
 
-    - name: Rsync deployments   
+    - name: Rsync deployments
       uses: masutech16/rsync-deployments@v1
       with:
-        USER_AND_HOST: gha@150.95.202.188
+        USER_AND_HOST: gha@blog.masutech.work
         DEST: /srv/blog/
         SRC: public/
         RSYNC_OPTIONS: -rlOtcv --delete --exclude node_modules --exclude '.git*'
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        
+

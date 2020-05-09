@@ -56,7 +56,7 @@ optional arguments:
 そうしたら作成したフォルダの中に入り`oj d {問題のURL}`というコマンドを打ちます。
 
 ```
-$ mkdir abc_166 a
+$ mkdir abc166 a
 $ cd abc166_a
 $ oj d https://atcoder.jp/contests/abc166/tasks/abc166_a
 [x] clear the downloading history for this directory: /home/masutech/.cache/online-judge-tools/download-history.jsonl

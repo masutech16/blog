@@ -3,6 +3,7 @@ title: "精進環境を自動化しました"
 date: 2020-05-03T13:49:18+09:00
 draft: false
 slug: automate2
+tags: [compro]
 mathjax: false
 ---
 

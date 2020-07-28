@@ -1,7 +1,7 @@
 baseURL = "https://blog.masutech.work/"
 languageCode = "ja"
 title = "ますぐれメモ"
-theme = "cactus"
+theme = "hugo-theme-cactus-plus"
 
 [taxonomies]
   tag = "tags"
